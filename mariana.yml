@@ -91,7 +91,7 @@ highlights:
   Error: "red"
   Todo: "red2"
   String: "green"
-  Constant: "blue"
+  Constant: "red"
   Character: "green"
   Number: "orange"
   Boolean: "red"
