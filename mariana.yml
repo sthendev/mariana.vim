@@ -41,8 +41,8 @@ highlights:
   LineNrBelow: "orange"
   CursorLineNr: "red2 . b"
   Question: "green . b"
-  StatusLine: ". blue3 b"
-  StatusLineNC: ". ."
+  StatusLine: ". blue5 b"
+  StatusLineNC: ". blue3 b"
   VertSplit: "blue3 ."
   Title: "pink . b"
   Visual: ". blue3"
@@ -121,6 +121,6 @@ highlights:
   SpecialComment: "orange3"
   Debug: "orange3"
   MatchParen: ". . u orange"
-  Comment: "grey"
+  Comment: "blue3"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg

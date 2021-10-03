@@ -23,8 +23,8 @@ hi LineNrAbove guifg=#f9ae58 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi LineNrBelow guifg=#f9ae58 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f97b58 ctermfg=209 gui=bold cterm=bold
 hi Question guifg=#99c794 ctermfg=114 gui=bold cterm=bold
-hi StatusLine guibg=#343d46 ctermbg=237 gui=bold cterm=bold
-hi StatusLineNC gui=NONE cterm=NONE
+hi StatusLine guibg=#5fb4b4 ctermbg=73 gui=bold cterm=bold
+hi StatusLineNC guibg=#343d46 ctermbg=237 gui=bold cterm=bold
 hi VertSplit guifg=#343d46 ctermfg=237 gui=NONE cterm=NONE
 hi Title guifg=#c695c6 ctermfg=176 gui=bold cterm=bold
 hi Visual guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
@@ -101,5 +101,5 @@ hi Delimiter guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi SpecialComment guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Debug guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen gui=underline cterm=underline guisp=#f9ae58
-hi Comment guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#343d46 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699cc
