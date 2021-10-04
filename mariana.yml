@@ -129,3 +129,4 @@ highlights:
   TSKeyword: "red"
   TSKeywordReturn: "pink"
   TSFuncBuiltin: "blue"
+  TSField: "orange3"
