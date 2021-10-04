@@ -127,4 +127,5 @@ highlights:
   
   # -- Treesitter --
   TSKeyword: "red"
+  TSKeywordReturn: "pink"
   TSFuncBuiltin: "blue"
