@@ -71,7 +71,7 @@ hi Substitute guifg=#343d46 ctermfg=237 guibg=#99c794 ctermbg=114 gui=NONE cterm
 hi Error guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Constant guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#f9ae58 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
