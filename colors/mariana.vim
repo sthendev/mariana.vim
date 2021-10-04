@@ -116,15 +116,15 @@ hi BufferVisibleIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE
 hi BufferVisibleMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferVisibleSign gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi BufferInactive guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactive guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveMod guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferTabpages guifg=#fac761 ctermfg=221 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferTabpageFill guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferTabpageFill guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferCurrentIcon gui=NONE cterm=NONE
 hi BufferVisibleIcon gui=NONE cterm=NONE
-hi BufferInactiveIcone guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferOffset guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIcone guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferOffset guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
