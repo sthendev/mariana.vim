@@ -25,6 +25,7 @@ palette:
   white3:  "#d8dee9"
 
 highlights:
+  Normal: "white3 -"
   SpecialKey: "blue5"
   EndOfBuffer: "grey"
   TermCursor: ". . r"
@@ -84,7 +85,6 @@ highlights:
   RedrawDebugRecompose: ". red"
   Cursor: ". ."
   lCursor: ". ."
-  Normal: ". ."
   Substitute: "blue3 green"
   #FloatShadow guibg=Black blend=80
   #FloatShadowThrough guibg=Black blend=100
@@ -130,5 +130,29 @@ highlights:
   TSField: "white3"
   TSConstant: "blue"
 
+  # -- Bar Bar --
+  BufferCurrent: ". ."
+  BufferCurrentIndex: "orange3"
+  BufferCurrentMod: "red2"
+  BufferCurrentSign: "orange3"
+  BufferCurrentTarget: "red"
+  BufferVisible: ". ."
+  BufferVisibleIndex: "orange3"
+  BufferVisibleMod: "red2"
+  BufferVisibleSign: ". ."
+  BufferVisibleTarget: "red"
+  BufferInactive: "blue2 blue3"
+  BufferInactiveIndex: "blue2 blue3"
+  BufferInactiveMod: "red2 blue3"
+  BufferInactiveSign: "blue2 blue3"
+  BufferInactiveTarget: "red2 blue3"
+  BufferTabpages: "orange3 blue3"
+  BufferTabpageFill: "blue2 blue3"
+  BufferCurrentIcon: ". ."
+  BufferVisibleIcon: ". ."
+  BufferInactiveIcone: "blue2 blue3"
+  BufferOffset: "blue2 blue3"
+
   # -- Lua --
   luaFunc: "blue"
+

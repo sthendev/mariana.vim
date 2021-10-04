@@ -7,6 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='mariana'
 
+hi Normal guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#5fb4b4 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TermCursor gui=reverse cterm=reverse
@@ -66,7 +67,6 @@ hi RedrawDebugComposed guibg=#99c794 ctermbg=114 gui=NONE cterm=NONE
 hi RedrawDebugRecompose guibg=#ec5f66 ctermbg=203 gui=NONE cterm=NONE
 hi Cursor gui=NONE cterm=NONE
 hi lCursor gui=NONE cterm=NONE
-hi Normal gui=NONE cterm=NONE
 hi Substitute guifg=#343d46 ctermfg=237 guibg=#99c794 ctermbg=114 gui=NONE cterm=NONE
 hi Error guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -106,4 +106,25 @@ hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699
 hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferCurrent gui=NONE cterm=NONE
+hi BufferCurrentIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferCurrentMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferCurrentSign guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferCurrentTarget guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferVisible gui=NONE cterm=NONE
+hi BufferVisibleIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferVisibleMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferVisibleSign gui=NONE cterm=NONE
+hi BufferVisibleTarget guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi BufferInactive guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveMod guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveTarget guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferTabpages guifg=#fac761 ctermfg=221 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferTabpageFill guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferCurrentIcon gui=NONE cterm=NONE
+hi BufferVisibleIcon gui=NONE cterm=NONE
+hi BufferInactiveIcone guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferOffset guifg=#4e5a65 ctermfg=240 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
