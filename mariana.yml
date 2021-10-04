@@ -129,3 +129,6 @@ highlights:
   TSFuncBuiltin: "blue"
   TSField: "white3"
   TSConstant: "blue"
+
+  # -- Lua --
+  luaFunc: "blue"
