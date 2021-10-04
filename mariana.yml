@@ -120,7 +120,7 @@ highlights:
   Delimiter: "orange3"
   SpecialComment: "orange3"
   Debug: "orange3"
-  MatchParen: ". . u orange"
+  MatchParen: ". - u orange"
   Comment: "blue4"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
