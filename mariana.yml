@@ -128,3 +128,4 @@ highlights:
   # -- Treesitter --
   TSFuncBuiltin: "blue"
   TSField: "white3"
+  TSConstant: "blue"
