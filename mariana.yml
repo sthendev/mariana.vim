@@ -124,9 +124,3 @@ highlights:
   Comment: "blue4"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
-  
-  # -- Treesitter --
-  TSKeyword: "red"
-  TSKeywordReturn: "pink"
-  TSFuncBuiltin: "blue"
-  TSField: "orange3"
