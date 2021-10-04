@@ -103,3 +103,4 @@ hi Debug guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=#f9ae58
 hi Comment guifg=#647382 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699cc
+hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

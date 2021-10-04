@@ -124,3 +124,6 @@ highlights:
   Comment: "blue4"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
+
+  # -- Treesitter --
+  TSFuncBuiltin: "blue"
