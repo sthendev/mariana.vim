@@ -130,6 +130,12 @@ highlights:
   TSField: "white3"
   TSConstant: "blue"
 
+  # -- Nvim Tree --
+  NvimTreeGitDeleted: "red"
+  NvimTreeGitNew: "green"
+  NvimTreeGitDirty: "red"
+  NvimTreeGitStaged: "green"
+
   # -- Bar Bar --
   BufferCurrent: ". ."
   BufferCurrentIndex: "orange3"

@@ -106,6 +106,10 @@ hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699
 hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitDeleted guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitNew guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitDirty guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitStaged guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferCurrent gui=NONE cterm=NONE
 hi BufferCurrentIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferCurrentMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -116,15 +120,15 @@ hi BufferVisibleIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE
 hi BufferVisibleMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferVisibleSign gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi BufferInactive guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactive guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveMod guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#f97b58 ctermfg=209 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferTabpages guifg=#fac761 ctermfg=221 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferTabpageFill guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferTabpageFill guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferCurrentIcon gui=NONE cterm=NONE
 hi BufferVisibleIcon gui=NONE cterm=NONE
-hi BufferInactiveIcone guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi BufferOffset guifg=#647382 ctermfg=66 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferInactiveIcone guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
+hi BufferOffset guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
