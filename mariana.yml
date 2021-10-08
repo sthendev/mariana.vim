@@ -121,7 +121,7 @@ highlights:
   SpecialComment: "orange3"
   Debug: "orange3"
   MatchParen: "orange3 - u orange"
-  Comment: "blue4"
+  Comment: "blue6"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
 
