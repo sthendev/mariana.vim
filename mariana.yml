@@ -162,3 +162,8 @@ highlights:
   # -- Lua --
   luaFunc: "blue"
 
+  # -- Diagnostic --
+  DiagnosticError: "red"
+  DiagnosticWarn: "orange3"
+  DiagnosticInfo: "blue"
+  DiagnosticHint: "blue6"
