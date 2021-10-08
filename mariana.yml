@@ -165,5 +165,5 @@ highlights:
   # -- Diagnostic --
   DiagnosticError: "red"
   DiagnosticWarn: "orange3"
-  DiagnosticInfo: "blue"
-  DiagnosticHint: "blue6"
+  DiagnosticHint: "blue"
+  DiagnosticInfo: "blue6"
