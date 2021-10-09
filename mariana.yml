@@ -31,7 +31,7 @@ highlights:
   TermCursor: ". . r"
   TermCursorNC: ". ."
   NonText: "grey"
-  Directory: "orange"
+  Directory: "blue5"
   ErrorMsg: "red"
   IncSearch: ". blue3"
   Search: "blue3 green"
@@ -133,7 +133,7 @@ highlights:
   # -- Nvim Tree --
   NvimTreeGitDirty: "orange3"
   NvimTreeGitStaged: "green"
-  NvimTreeGitMerge: "blue5"
+  NvimTreeGitMerge: "red2"
   NvimTreeGitRenamed: "blue"
   NvimTreeGitNew: "red2"
   NvimTreeGitDeleted: "red"

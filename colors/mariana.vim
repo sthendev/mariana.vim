@@ -13,7 +13,7 @@ hi EndOfBuffer guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TermCursor gui=reverse cterm=reverse
 hi TermCursorNC gui=NONE cterm=NONE
 hi NonText guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Directory guifg=#f9ae58 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Directory guifg=#5fb4b4 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi Search guifg=#343d46 ctermfg=237 guibg=#99c794 ctermbg=114 gui=NONE cterm=NONE
@@ -108,7 +108,7 @@ hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDirty guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitStaged guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeGitMerge guifg=#5fb4b4 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitMerge guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitRenamed guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitNew guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDeleted guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
