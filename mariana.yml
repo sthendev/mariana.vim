@@ -131,7 +131,7 @@ highlights:
   TSConstant: "blue"
 
   # -- Nvim Tree --
-  NvimTreeGitDiry: "orange3"
+  NvimTreeGitDirty: "orange3"
   NvimTreeGitStaged: "green"
   NvimTreeGitMerge: "blue5"
   NvimTreeGitRenamed: "blue"
