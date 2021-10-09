@@ -106,10 +106,12 @@ hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699
 hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeGitDeleted guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeGitNew guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeGitDirty guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitDiry guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitStaged guifg=#99c794 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitMerge guifg=#5fb4b4 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitRenamed guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitNew guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitDeleted guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferCurrent gui=NONE cterm=NONE
 hi BufferCurrentIndex guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferCurrentMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
