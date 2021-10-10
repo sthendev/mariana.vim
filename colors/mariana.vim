@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='mariana'
 
-hi Normal guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Normal guifg=#d8dee9 ctermfg=254 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi SpecialKey guifg=#5fb4b4 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TermCursor gui=reverse cterm=reverse
