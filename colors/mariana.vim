@@ -125,10 +125,10 @@ hi BufferVisibleMod guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE c
 hi BufferVisibleSign gui=NONE cterm=NONE
 hi BufferVisibleTarget guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufferInactive guifg=#a6acb9 ctermfg=145 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
-hi BufferInactiveIndex guifg=#a6acb9 ctermfg=145 gui=NONE cterm=NONE
-hi BufferInactiveMod guifg=#f97b58 ctermfg=209 gui=NONE cterm=NONE
-hi BufferInactiveSign guifg=#a6acb9 ctermfg=145 gui=NONE cterm=NONE
-hi BufferInactiveTarget guifg=#f97b58 ctermfg=209 gui=NONE cterm=NONE
+hi BufferInactiveIndex guifg=#a6acb9 ctermfg=145 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
+hi BufferInactiveMod guifg=#f97b58 ctermfg=209 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
+hi BufferInactiveSign guifg=#a6acb9 ctermfg=145 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
+hi BufferInactiveTarget guifg=#f97b58 ctermfg=209 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
 hi BufferTabpages guifg=#fac761 ctermfg=221 guibg=#4e5a65 ctermbg=240 gui=NONE cterm=NONE
 hi BufferTabpageFill guifg=#a6acb9 ctermfg=145 gui=NONE cterm=NONE
 hi BufferCurrentIcon gui=NONE cterm=NONE
