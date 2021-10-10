@@ -129,6 +129,7 @@ highlights:
   TSFuncBuiltin: "blue"
   TSField: "white3"
   TSConstant: "blue"
+  TSNamespace: "blue"
 
   # -- Nvim Tree --
   NvimTreeFolderIcon: "blue5"
