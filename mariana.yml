@@ -127,7 +127,11 @@ highlights:
   #Ignore ctermfg=0 guifg=bg
 
   # -- Treesitter --
+  TSConstructor: "red"
+  TSConstBuiltin: "red"
   TSFuncBuiltin: "blue"
+  TSVariableBuiltin: "red"
+  TSPunctDelimiter: "red2"
   TSField: "white3"
   TSConstant: "blue"
   TSNamespace: "blue"
@@ -164,9 +168,6 @@ highlights:
   BufferInactiveIcon: "blue6 highlight_bg"
   BufferOffset: "blue6 highlight_bg"
 
-  # -- Lua --
-  luaFunc: "blue"
-
   # -- Diagnostic --
   DiagnosticError: "red"
   DiagnosticWarn: "orange3"
@@ -176,3 +177,9 @@ highlights:
   # -- Nvim Cmp --
   CmpItemKindDefault: "pink"
   CmpItemMenuDefault: "blue"
+
+  # -- Lua --
+  luaFunc: "blue"
+
+  # -- Python --
+  pythonBuiltin: "blue"

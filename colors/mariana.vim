@@ -103,7 +103,11 @@ hi Debug guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=#f9ae58
 hi Comment guifg=#a6acb9 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699cc
+hi TSConstructor guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSConstBuiltin guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSVariableBuiltin guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctDelimiter guifg=#f97b58 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#d8dee9 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -135,10 +139,11 @@ hi BufferCurrentIcon gui=NONE cterm=NONE
 hi BufferVisibleIcon gui=NONE cterm=NONE
 hi BufferInactiveIcon guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
 hi BufferOffset guifg=#a6acb9 ctermfg=145 guibg=#343d46 ctermbg=237 gui=NONE cterm=NONE
-hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticError guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticWarn guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticHint guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticInfo guifg=#a6acb9 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemKindDefault guifg=#c695c6 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemMenuDefault guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
