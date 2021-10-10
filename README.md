@@ -30,7 +30,7 @@ E.g. Packer
 use { 'git@github.com:[username]/mariana.vim.git' }
 ```
 ### Editing your forked colorscheme
-1. Edit/Add/Remove any highlights you want in mariana.yml. "." means inerit and "-" means "None".
+1. Edit/Add/Remove any highlights you want in mariana.yml. "." means inherit and "-" means "None".
 2. Build colors/mariana.vim
 ```bash
 $ make
@@ -40,4 +40,4 @@ $ make
 git commit -am "changes"
 git push
 ```
-4. Update the pacakge in your package manager. E.g. `:PackerUpdate`
+4. Update the package in your package manager. E.g. `:PackerUpdate`
