@@ -4,8 +4,7 @@ information:
   author: "Sanju Thenuwara <sthendev@gmail.com>"
 
 palette:
-  bg:      "#343d46"
-  highlight_bg: "#4e5a65"
+  highlight_bg: "#343d46"
 
   black:   "#000000"
   grey:    "#333333"
@@ -27,7 +26,7 @@ palette:
   white3:  "#d8dee9"
 
 highlights:
-  Normal: "white3 bg"
+  Normal: "white3 -"
   SpecialKey: "blue5"
   EndOfBuffer: "grey"
   TermCursor: ". . r"
