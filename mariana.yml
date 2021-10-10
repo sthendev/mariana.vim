@@ -125,12 +125,6 @@ highlights:
   Comment: "blue6"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
-  
-  # -- Lua --
-  luaFunc: "blue"
-
-  # -- Python --
-  pythonBuiltin: "blue"
 
   # -- Treesitter --
   TSConstructor: "red"
@@ -184,3 +178,8 @@ highlights:
   CmpItemKindDefault: "pink"
   CmpItemMenuDefault: "blue"
 
+  # -- Lua --
+  luaFunc: "blue"
+
+  # -- Python --
+  pythonBuiltin: "blue"

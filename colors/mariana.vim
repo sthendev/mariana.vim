@@ -103,8 +103,6 @@ hi Debug guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=underline cterm=underline guisp=#f9ae58
 hi Comment guifg=#a6acb9 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#6699cc ctermfg=68 gui=underline cterm=underline guisp=#6699cc
-hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi pythonBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstructor guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstBuiltin guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -147,3 +145,5 @@ hi DiagnosticHint guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cter
 hi DiagnosticInfo guifg=#a6acb9 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemKindDefault guifg=#c695c6 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemMenuDefault guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi luaFunc guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi pythonBuiltin guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
