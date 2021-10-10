@@ -139,3 +139,5 @@ hi DiagnosticError guifg=#ec5f66 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE ct
 hi DiagnosticWarn guifg=#fac761 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticHint guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticInfo guifg=#a6acb9 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemKindDefault guifg=#c695c6 ctermfg=176 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemMenuDefault guifg=#6699cc ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

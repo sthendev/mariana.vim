@@ -170,3 +170,7 @@ highlights:
   DiagnosticWarn: "orange3"
   DiagnosticHint: "blue"
   DiagnosticInfo: "blue6"
+
+  # -- Nvim Cmp --
+  CmpItemKindDefault: "pink"
+  CmpItemMenuDefault: "blue"
