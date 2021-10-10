@@ -10,7 +10,7 @@ branch = 'main'            |  branch = 'transparent'
 - Treesitter
 - Nvim Tree
 - BarBar
-- Lsp Diagnostics
+- LSP Diagnostics
 - Nvim Cmp Items
 
 ## Credit
