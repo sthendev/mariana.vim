@@ -51,3 +51,11 @@ git commit -am "changes"
 git push
 ```
 4. Update the package in your package manager. E.g. `:PackerUpdate`
+
+### Keeping a custom local version of the colorscheme
+1. Clone `main` or `transparent` branch somewhere on your system
+2. Point your package manager directly to that path
+E.g. Packer
+```lua
+use { '/home/<username>/downloads/mariana.vim' }
+```
