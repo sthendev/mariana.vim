@@ -55,6 +55,7 @@ git push
 ### Keeping a custom local version of the colorscheme
 1. Clone `main` or `transparent` branch somewhere on your system
 2. Point your package manager directly to that path
+
 E.g. Packer
 ```lua
 use { '/home/<username>/downloads/mariana.vim' }
