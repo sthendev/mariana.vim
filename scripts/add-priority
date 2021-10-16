@@ -1,0 +1,110 @@
+#!/usr/bin/env python
+import sys
+
+def main():
+    filename = sys.argv[1]
+    priority = int(sys.argv[2])
+
+    data = None
+    with open(filename, 'r') as f:
+        data = f.read()
+
+    data = addPriorityToQueries(data, priority)
+
+    with open(filename, 'w') as f:
+        f.write(data)
+
+def addPriorityToQueries(data, priority):
+    q_start, q_end = findFirstQuery(data)
+    if q_start == None or q_end == None: return data
+    before = data[:q_start]
+    query = data[q_start:q_end + 1]
+    after = data[q_end + 1:]
+    lines = query.split('\n')
+    new_query = '(\n'
+    for line in lines:
+        new_query += '\t' + line + '\n'
+    new_query += '\t(set! "priority" %d)\n' % priority
+    new_query += ')'
+    return before + new_query + addPriorityToQueries(after, priority)
+
+def findFirstQuery(data):
+    q_start, bracket_char = findQueryStart(data)
+    if bracket_char == '"':
+        return q_start, findAnonymousQueryEnd(q_start, data)
+    elif bracket_char == '(':
+        return q_start, findExpressionQueryEnd(q_start, data)
+    elif bracket_char == '[':
+        return q_start, findAlternationQueryEnd(q_start, data)
+    return None, None
+
+def findQueryStart(data):
+    i = 0
+    while i < len(data):
+        if data[i] == ';':
+            i = goToEndOfLine(i, data)
+        elif data[i] == '"':
+            return i, '"'
+        elif data[i] == '(':
+            return i, '('
+        elif data[i] == '[':
+            return i, '['
+        i += 1
+    return None, None
+
+def findAnonymousQueryEnd(start, data):
+    string_escape = False
+
+    i = start + 1
+    while i < len(data):
+        if data[i] == '\\':
+            string_escape = True
+            i += 1
+            continue
+        elif data[i] == '"' and not string_escape:
+            return goToEndOfLine(i, data)
+        
+        string_escape = False
+        i += 1
+
+    raise SyntaxError("Couldn't find end of anonymous query")
+
+def findExpressionQueryEnd(start, data):
+    bracket_close = findClosingBracket('(', ')', start + 1, data)
+    return goToEndOfLine(bracket_close, data)
+
+def findAlternationQueryEnd(start, data):
+    bracket_close = findClosingBracket('[', ']', start + 1, data)
+    return goToEndOfLine(bracket_close, data)
+
+def findClosingBracket(open_char, close_char, start, data):
+    bracket_level = 1
+    in_string = False
+    string_escape = False
+
+    i = start
+    while i < len(data):
+        if data[i] == '\\' and in_string and not string_escape:
+            string_escape = True
+            i += 1
+            continue
+        elif data[i] == '"' and not string_escape:
+            in_string = not in_string
+        elif data[i] == open_char and not in_string:
+            bracket_level += 1
+        elif data[i] == close_char and not in_string:
+            bracket_level -= 1
+            if bracket_level == 0: return i
+
+        string_escape = False
+        i += 1
+    
+    raise SyntaxError("Couldn't find closing bracket")
+
+def goToEndOfLine(i, data):
+    while data[i + 1] != '\n':
+        i += 1
+    return i
+
+if __name__ == "__main__":
+    main()
