@@ -25,7 +25,7 @@ use { 'sthendev/mariana.vim' }
 The default priority of the queries in this colorscheme is 101 (1 above the treesitter default of 100). If you would instead like a different priority you can instead install the package with a run command as follows.
 E.g. Packer
 ```lua
-use { 'sthendev/mariana.vim', run="make clean && make PRIORity=105"}
+use { 'sthendev/mariana.vim', run="make clean && make PRIORITY=105"}
 ```
 ### 2. Set colorscheme in init.lua/init.vim
 ```vim
