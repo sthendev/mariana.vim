@@ -20,12 +20,16 @@ The generate script comes from this repo: https://github.com/felipec/vim-felipec
 ### 1. Install with package manager of choice
 E.g. Packer
 ```lua
-use { 'sthendev/mariana.vim', run="make" }
+use { 'sthendev/mariana.vim', run='make' }
 ```
-The default priority of the queries in this colorscheme is 101 (1 above the treesitter default of 100). If you would instead like a different priority you can instead install the package with a run command as follows.
-E.g. Packer
+#### Options
 ```lua
-use { 'sthendev/mariana.vim', run="make clean && make PRIORITY=105"}
+-- TRANSPARENT: (default = FALSE) Use a transparent background to support transparent terminals
+-- PRIORITY: (default = 101) Set priority of highlight queries in this colorscheme. Nvim treesitter default is 100.
+
+use { 'sthendev/mariana.vim', run='make TRANSPARENT=TRUE' }
+use { 'sthendev/mariana.vim', run='make PRIORITY=105' }
+use { 'sthendev/mariana.vim', run='make TRANSPARENT=TRUE PRIORITY=105' }
 ```
 ### 2. Set colorscheme in init.lua/init.vim
 ```vim
@@ -33,7 +37,7 @@ colorscheme mariana
 ```
 
 ## Forking
-The highlights have been added as I went and are by no means exhaustive. If you don't like some of the choices please feel free to raise a PR if you believe something looks wrong. Please provides screenshots before/after to demonstrate the change and raise against either the `develop` branch or if the change is transparent specific, the `transparent-develop` branch. If you prefer to have your own custom version please feel free to fork the repo.
+The highlights have been added as I went and are by no means exhaustive. If you don't like some of the choices please feel free to raise a PR if you believe something looks wrong. Please provides screenshots before/after to demonstrate the change and raise against either the `develop` branch. If you prefer to have your own custom version please feel free to fork the repo.
 ### Re-point the package manager to your own fork
 E.g. Packer
 ```lua
@@ -53,7 +57,7 @@ git push
 4. Update the package in your package manager. E.g. `:PackerUpdate`
 
 ### Keeping a custom local version of the colorscheme
-1. Clone `main` or `transparent` branch somewhere on your system
+1. Clone `main` branch somewhere on your system
 2. Point your package manager directly to that path
 
 E.g. Packer
