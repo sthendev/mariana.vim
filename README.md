@@ -20,7 +20,7 @@ The generate script comes from this repo: https://github.com/felipec/vim-felipec
 ### 1. Install with package manager of choice
 E.g. Packer
 ```lua
-use { 'sthendev/mariana.vim' }
+use { 'sthendev/mariana.vim', run="make" }
 ```
 The default priority of the queries in this colorscheme is 101 (1 above the treesitter default of 100). If you would instead like a different priority you can instead install the package with a run command as follows.
 E.g. Packer
