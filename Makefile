@@ -1,42 +1,38 @@
 dir_guard=@mkdir -p $(@D)
 
+TRANSPARENT ?= FALSE
+PRIORITY ?= 101
+
 all: colors queries
+	$(info TARGET: $@)
 
 colors: colors/mariana.vim
+	$(info TARGET: $@)
 
-TRANSPARENT ?= "FALSE"
-LAST_TRANSPARENT := .last_transparent.$(TRANSPARENT)
-colors/mariana.vim: src/mariana.yml $(LAST_TRANSPARENT)
+colors/mariana.vim: src/mariana.yml
+	$(info TARGET: $@)
 	$(dir_guard)
 	[ $(TRANSPARENT) = "TRUE" ] \
-	    && cp src/mariana.yml /tmp/mariana.yml \
-	    && sed -iE 's/^(\s*highlight_bg:\s*")#[a-fA-F0-9]{6}(".*)$$/\1#343d46\2/' /tmp/mariana.yml \
-	    && sed -iE 's/^(\s*Normal:\s*"\w+ )\w+(.*".*)$$/\1-\2/' /tmp/mariana.yml \
+	    && sed -E -e 's/^(\s*highlight_bg:\s*")(#[a-fA-F0-9]{6})(".*)$$/\1#343d46\3/' \
+	              -e 's/^(\s*Normal:\s*"\w+ )(\w+)(.*".*)$$/\1-\3/' \
+	              src/mariana.yml > /tmp/mariana.yml \
 	    && scripts/generate /tmp/mariana.yml > $@ \
 	|| scripts/generate $< > $@
 
-.last_transparent.%:
-	rm -f .last_transparent.*
-	touch $@
+SRCS := $(wildcard src/queries/*/*.scm)
+OUTS := $(patsubst src/%, %, $(SRCS))
+queries: $(OUTS)
+	$(info TARGET: $@)
 
-
-SCMS := $(patsubst src/%, %, $(wildcard src/queries/*/*.scm))
-queries: $(SCMS)
-
-PRIORITY ?= "101"
-LAST_PRIORITY := .last_priority.$(PRIORITY)
-queries/%.scm: src/queries/%.scm $(LAST_PRIORITY)
+queries/%.scm: src/queries/%.scm
+	$(info TARGET: $@)
 	$(dir_guard)
-	cp src/$@ $@
+	cp $< $@
 	scripts/add-priority $@ $(PRIORITY)
 
-.last_priority.%:
-	rm -f .last_priority.*
-	touch $@
-
 clean:
+	$(info TARGET: $@)
 	rm -rf colors/ queries/
-	rm -f .last_transparent.*
-	rm -f .last_priority.*
 
-.PHONY: all colors queries
+.PHONY: all colors queries clean
+.PRECIOUS: .last_%

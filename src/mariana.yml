@@ -4,7 +4,6 @@ information:
   author: "Sanju Thenuwara <sthendev@gmail.com>"
 
 palette:
-  bg:      "#343d46"
   highlight_bg: "#4e5a65"
 
   black:   "#000000"
@@ -27,7 +26,7 @@ palette:
   white3:  "#d8dee9"
 
 highlights:
-  Normal: "white3 bg"
+  Normal: "white3 blue3"
   SpecialKey: "blue5"
   EndOfBuffer: "grey"
   TermCursor: ". . r"
@@ -128,10 +127,15 @@ highlights:
   #Ignore ctermfg=0 guifg=bg
 
   # -- Treesitter --
-  TSFuncBuiltin: "blue"
-  TSField: "white3"
   TSConstant: "blue"
+  TSConstructor: "red"
+  TSConstBuiltin: "red"
+  TSField: "white3"
+  TSFuncBuiltin: "blue"
   TSNamespace: "blue"
+  TSTypeBuiltin: "blue"
+  TSVariable: "white3"
+  TSVariableBuiltin: "red"
 
   # -- Nvim Tree --
   NvimTreeFolderIcon: "blue5"

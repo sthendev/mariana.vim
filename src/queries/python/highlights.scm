@@ -13,3 +13,8 @@
 		)
 	)
 )
+
+(
+	(identifier) @type.builtin
+	(#match? @type.builtin "object")
+)
