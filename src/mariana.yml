@@ -14,6 +14,7 @@ palette:
   blue4:   "#647382"
   blue5:   "#5fb4b4"
   blue6:   "#a6acb9"
+  blue7:   "#8aa5cf"
   green:   "#99c794"
   orange:  "#f9ae58"
   orange2: "#ee932b"
@@ -118,21 +119,23 @@ highlights:
   Tag: "orange3"
   Special: "orange3"
   SpecialChar: "orange3"
-  Delimiter: "orange3"
+  Delimiter: "blue7"
   SpecialComment: "orange3"
   Debug: "orange3"
-  MatchParen: "orange3 - u orange"
+  MatchParen: "blue7 - u orange"
   Comment: "blue6"
   Underlined: "blue . u blue"
   #Ignore ctermfg=0 guifg=bg
 
   # -- Treesitter --
   TSConstant: "blue"
-  TSConstructor: "red"
-  TSConstBuiltin: "red"
+  TSConstructor: "orange3"
+  TSConstBuiltin: "blue"
   TSField: "white3"
   TSFuncBuiltin: "blue"
+  TSKeywordOperator: "pink"
   TSNamespace: "blue"
+  TSParameter: "white3"
   TSTypeBuiltin: "blue"
   TSVariable: "white3"
   TSVariableBuiltin: "red"
@@ -181,3 +184,7 @@ highlights:
   # -- Nvim Cmp --
   CmpItemKindDefault: "pink"
   CmpItemMenuDefault: "blue"
+
+  # -- Indent Blankline --
+  IndentBlankLine: "- -"
+  IndentBlankLineCurrentContext: "blue7"
