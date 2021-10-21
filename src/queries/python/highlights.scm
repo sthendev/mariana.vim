@@ -31,3 +31,17 @@
 		)
 	)	
 )
+
+(class_definition
+	superclasses: (argument_list
+		(identifier) @method
+		(#match? @method "^[A-Z]")
+	)
+)
+
+(function_definition
+	parameters: (parameters
+		((identifier) @parameter
+         (#match? @parameter "self"))
+	)
+)
