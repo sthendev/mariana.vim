@@ -135,7 +135,7 @@ highlights:
   TSFuncBuiltin: "blue"
   TSKeywordOperator: "pink"
   TSNamespace: "blue"
-  TSParameter: "white3"
+  TSParameter: "orange3"
   TSTypeBuiltin: "blue"
   TSVariable: "white3"
   TSVariableBuiltin: "red"
