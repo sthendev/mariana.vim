@@ -39,7 +39,7 @@ highlights:
   Search: "blue3 green"
   MoreMsg: "green . b"
   ModeMsg: ". . b"
-  LineNr: "orange"
+  LineNr: "blue7"
   LineNrAbove: "orange"
   LineNrBelow: "orange"
   CursorLineNr: "red2 . b"

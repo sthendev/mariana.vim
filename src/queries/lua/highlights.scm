@@ -1,0 +1,3 @@
+(table 
+	["{" "}"] @punctuation.bracket
+)
