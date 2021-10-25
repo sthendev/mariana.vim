@@ -1,10 +1,8 @@
 # mariana.vim
 Mariana Pro colorscheme from Sublime Text ported to Vim
-branch = 'main'            |  branch = 'transparent'
+run = 'make'            |  run = 'make TRANSPARENT=TRUE'
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/37766610/136689085-e3f854f1-1a79-46d9-9889-2bfa4dd24b16.png" height=600 /> | <img src="https://user-images.githubusercontent.com/37766610/136689140-b62a759b-4656-4762-8c04-4b13ad57579f.png" height=600 />
-
-
+<img src="https://user-images.githubusercontent.com/37766610/138650867-6357eedd-bff6-4338-b32b-de3cfaa3a3d1.png" height=600 /> | <img src="https://user-images.githubusercontent.com/37766610/138651011-1b8caa9e-85c8-4a0b-b805-bec6ff89cee7.png" height=600 />
 
 ## Supports
 - Treesitter
