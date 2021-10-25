@@ -36,29 +36,10 @@ use { 'sthendev/mariana.vim', run='make TRANSPARENT=TRUE PRIORITY=105' }
 colorscheme mariana
 ```
 
-## Forking
-The highlights have been added as I went and are by no means exhaustive. If you don't like some of the choices please feel free to raise a PR if you believe something looks wrong. Please provides screenshots before/after to demonstrate the change and raise against either the `develop` branch. If you prefer to have your own custom version please feel free to fork the repo.
-### Re-point the package manager to your own fork
-E.g. Packer
-```lua
-use { 'git@github.com:[username]/mariana.vim.git' }
-```
-### Editing your forked colorscheme
-1. Edit/Add/Remove any highlights you want in mariana.yml. "." means inherit and "-" means "None".
-2. Build colors/mariana.vim
-```bash
-$ make
-```
-3. Commit changes and Push
-```bash
-git commit -am "changes"
-git push
-```
-4. Update the package in your package manager. E.g. `:PackerUpdate`
-
-### Keeping a custom local version of the colorscheme
+## Keeping a custom local version of the colorscheme
 1. Clone `main` branch somewhere on your system
 2. Point your package manager directly to that path
+3. Edit and `make` it however you please
 
 E.g. Packer
 ```lua
