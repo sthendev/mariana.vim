@@ -13,9 +13,10 @@ run = 'make'            |  run = 'make TRANSPARENT=TRUE'
 
 ## Credit
 The generate script comes from this repo: https://github.com/felipec/vim-felipec
-
 ## Installation
-### 1. Install with package manager of choice
+### 1. Requirements
+* ruby: https://www.ruby-lang.org/en/documentation/installation/
+### 2. Install with package manager of choice
 E.g. Packer
 ```lua
 use { 'sthendev/mariana.vim', run='make' }
@@ -29,7 +30,7 @@ use { 'sthendev/mariana.vim', run='make TRANSPARENT=TRUE' }
 use { 'sthendev/mariana.vim', run='make PRIORITY=105' }
 use { 'sthendev/mariana.vim', run='make TRANSPARENT=TRUE PRIORITY=105' }
 ```
-### 2. Set colorscheme in init.lua/init.vim
+### 3. Set colorscheme in init.lua/init.vim
 ```vim
 colorscheme mariana
 ```
