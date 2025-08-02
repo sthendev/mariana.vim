@@ -1,3 +1,8 @@
+## NOTICE: This project has been archived
+1. I have not used this theme for a while now. (Switched to https://embark-theme.github.io/)
+2. If you are looking for an alternative consider:
+  1. Oceanic Next: https://github.com/mhartington/oceanic-next
+
 # mariana.vim
 Mariana Pro colorscheme from Sublime Text ported to Vim
 run = 'make'            |  run = 'make TRANSPARENT=TRUE'
